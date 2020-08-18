@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #454545;
+    width: 100%;
+    display: block;
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0px;
+}
+p{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #4455445d;
+    width: 100%;
+    display: block;
+    padding:10px;
+    margin: auto;
+    padding-bottom: 50px;
+}

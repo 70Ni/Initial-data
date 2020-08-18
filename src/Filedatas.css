@@ -1,0 +1,96 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#content{
+    margin: 20px 0px;
+}
+label{
+    color: #454545;
+}
+form,.head-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.wrapper-A,.wrapper-B{
+    padding: 80PX;
+    width: 300px;
+}
+.wrapper-B{
+    line-height: 40px;
+    border-left: 1px solid #eee;
+    
+}
+input[type="radio"]{
+    margin: 0 10px;
+  }
+
+input[type=text],input[type=url],input[type=radio],input[type=number],input[type=date] {
+    padding:10px;
+    margin-bottom:40px; 
+    border: 1.2px solid #eee;
+    border-radius:6.07px;
+}
+
+input[value],input[type=date] { 
+    color: #202124; 
+   
+    font-family:inherit;
+    font-size: inherit;
+    margin: 12px 0px;
+}​
+
+
+
+input, textarea {
+    border: 1.2px solid #eee;
+    font-family:inherit;
+    font-size: inherit;
+    color: rgb(146, 145, 145); 
+}
+  
+*:focus {
+      outline:none !important
+}
+input[type=text]:focus,input[type=url]:focus,input[type=radio]:focus,input[type=number]:focus {
+        border: 1.4px solid #6769F6;
+}
+
+
+
+::-webkit-input-placeholder { 
+    color: rgb(180, 180, 180);
+  }
+  
+  :-ms-input-placeholder {
+    color: rgb(180, 180, 180);
+  }
+  
+  ::placeholder {
+    color: rgb(180, 180, 180);
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin: 20px;
+}
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+  }
+  
+  input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+  }
